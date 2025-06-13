@@ -4,6 +4,7 @@ body {
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -13,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-image: url("https://i.pinimg.com/736x/68/73/fb/6873fb889606354151531940c5290a0a.jpg");
   position: fixed;
   top: 0;
   width: 100%;
@@ -22,24 +23,63 @@ ul {
 
 li {
   float: left;
+
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 li a {
   display: block;
-  color: white;
+  background-image: url("https://i.pinimg.com/736x/68/73/fb/6873fb889606354151531940c5290a0a.jpg");
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: rgb(107, 233, 237);
 }
 
 li a:hover:not(.active) {
-  background-color: yellow;
 }
 
 .active {
-  background-color: red;
+  background-color: rgb(88, 221, 227);
 }
 
 h1 {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+
   width: 100%;
+}
+
+parent-flex {
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+active {
+  color: white;
+}
+
+parent {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+ font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(240, 92, 66 );
+}
+child-flex {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap */
+  /* Add other styling properties as needed */
 }
